@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(/image/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+   
+
+    
+}
+
+.table-container {
+    gap: 20px;
+    max-width: 700px;
+    margin: 100px auto;
+    position: relative;
+    display: flex;
+    background-color: rgba(107, 119, 142, 0.322);
+    padding: 30px;
+    border-radius: 40px ;
+    border: 2px solid #00000010;
+    
+    & img {
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 0 auto;
+    
+    & caption {
+
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: cursive;
+    color: rgb(6, 6, 6);
+    
+    
+    }
+
+    & tr:first-child td:nth-child(6){
+            color: #030303fb;
+        }
+
+        & tr:first-child td:nth-child(-n+5) {
+            
+            border: 1px solid #0000006a;
+            pointer-events: none;
+        }
+
+        & tr:last-child td:nth-last-child(-n+6) {
+        
+            border: 1px solid #00000020;
+            pointer-events: none;
+        }
+
+         & th:first-child,
+         & td:first-child,
+         & th:last-child,
+         & td:last-child {
+            color: #d10902;
+            
+        }
+
+         & thead,
+         tbody tr:first-child,
+         tbody tr .first,
+         tbody tr:last-child,
+         tbody tr .last {
+            color: #07070745;
+        }
+
+        & tbody tr td {
+            border-radius: 50px;
+            border: 1px solid #0c0c0cf1;
+        }
+
+        & tbody tr td:hover {
+            background: #fff;
+           
+        }
+
+        & td:first-child:hover,
+        & td:last-child:hover {
+            color: #dd2822;
+            border: 2px solid #dd2822;
+          
+        }  
+    
+    & td{
+            background-color: rgba(113, 106, 107, 0.315);
+            border: radius 25px;
+            text-align: center;
+            font-family: cursive; 
+    }
+   
+    & th{
+        width: 40px;
+         border-radius: 25px;
+         /* border: 1px solid #1f1313; */
+         text-align: center;
+         font-family: cursive; 
+         color: #000;
+       
+  
+
+    
+
+}
+
+}
+}
